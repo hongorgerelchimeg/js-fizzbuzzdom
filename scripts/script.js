@@ -1,12 +1,15 @@
+let areaNumbers = document.querySelector('.fizz-buzz-dom');
+
+
 for (let i = 1; i <= 100; i++) {
     if (i % 15 == 0) {
-        console.log("FizzBuzz");
+        areaNumbers.innerHTML += `<div class="box fizzbuzz">fizzbuzz</div>`;
     } else if  (i % 3 == 0) {
-        console.log("Fizz");
+        areaNumbers.innerHTML += `<div class="box fizz">fizz</div>`;
     } else if (i % 5 == 0) {
-        console.log("Buzz");
+        areaNumbers.innerHTML += `<div class="box buzz">buzz</div>`;
     }
     else {
-        console.log(`${i}`);
+        areaNumbers.innerHTML += `<div class="box">${i}</div>`;
     }
 }

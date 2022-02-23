@@ -6,4 +6,48 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #011F26;
+}
+.container {
+    max-width: 1000px;
+    margin: 20vh auto;
+}
+.content {
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.full-width {
+    width: 100%;
+}
+
+.box {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: .5rem;
+    display: inline-block;
+    background-color: #025E73;
+    text-align: center;
+}
+
+.fizz {
+    background-color:#03A688;
+}
+
+.buzz {
+    background-color: #BDE038;
+}
+
+.fizzbuzz{
+    background-color: #F2668B;
+}
+
+/* Utility */
+
+.text-center {
+    text-align: center;
+}
