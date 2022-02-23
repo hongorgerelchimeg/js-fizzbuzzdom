@@ -14,6 +14,10 @@ body {
     margin: 20vh auto;
 }
 .content {
+    
+}
+
+.fizz-buzz-dom {
     display: flex;
     flex: 0 0 auto;
     flex-wrap: wrap;
@@ -21,17 +25,16 @@ body {
     align-items: center;
 }
 
-.full-width {
-    width: 100%;
-}
-
 .box {
-    width: 4.5rem;
-    height: 4.5rem;
-    margin: .5rem;
-    display: inline-block;
+    width: calc(100% / 9 - 1rem);
+    min-height: 5rem ;
     background-color: #025E73;
-    text-align: center;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fizz {
@@ -46,8 +49,11 @@ body {
     background-color: #F2668B;
 }
 
-/* Utility */
+/* Title */
 
-.text-center {
+.title {
     text-align: center;
+    color: white;
+    font-size: 2rem;
+    line-height: 6rem;
 }
