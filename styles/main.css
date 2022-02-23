@@ -25,12 +25,16 @@ body {
     align-items: center;
 }
 
-.box {
-    width: calc(100% / 9 - 1rem);
-    min-height: 5rem ;
-    background-color: #025E73;
+.fizz-buzz-dom > :nth-child(2n+2) {
     margin-left: .5rem;
     margin-right: .5rem;
+}
+
+.box {
+    width: calc(100% / 9 - (8rem / 9));
+    min-height: 6rem ;
+    background-color: #025E73;
+    
     margin-bottom: .5rem;
     display: flex;
     align-items: center;
