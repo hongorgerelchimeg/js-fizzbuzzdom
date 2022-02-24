@@ -2,7 +2,7 @@ let areaNumbers = document.querySelector('.fizz-buzz-dom');
 
 
 for (let i = 1; i <= 100; i++) {
-    if (i % 15 == 0) {
+    if (i % 3 == 0 && i % 5 ==0) {
         areaNumbers.innerHTML = areaNumbers.innerHTML + `<div class="box fizzbuzz">fizzbuzz</div>`;
     } else if  (i % 3 == 0) {
         areaNumbers.innerHTML += `<div class="box fizz">fizz</div>`;
